@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "creator",
+      "name": "Alice Creator",
+      "subscribers": 120000,
+      "category": "Tech",
+      "portfolio": [
+        {"title": "AI in 2025", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
+        {"title": "React Tips", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+      ],
+      "incomingOffers": [
+        {"brand": "Apple", "value": "$5000"},
+        {"brand": "Tesla", "value": "$7000"}
+      ]
+    },
+    {
+      "id": 2,
+      "role": "brand",
+      "name": "Nike",
+      "category": "Sports"
+    },
+    {
+      "id": 3,
+      "role": "student",
+      "name": "John Doe",
+      "skills": ["Video Editing", "Script Writing", "Motion Graphics"],
+      "skillScore": 85,
+      "jobMatches": [
+        {
+          "title": "Video Editor Needed",
+          "creator": "Tech Channel",
+          "rate": 25
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "Gaming Montage",
+          "description": "Fast-paced gaming video edit",
+          "url": "https://example.com/video1"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "role": "creator",
+      "name": "Charlie Vlogs",
+      "subscribers": 450000,
+      "category": "Travel",
+      "portfolio": [
+        {"title": "Exploring Bali", "url": "https://www.youtube.com/watch?v=abcd1234"},
+        {"title": "Backpacking Europe", "url": "https://www.youtube.com/watch?v=efgh5678"}
+      ],
+      "incomingOffers": [
+        {"brand": "GoPro", "value": "$3000"},
+        {"brand": "Airbnb", "value": "$4000"}
+      ]
+    },
+    {
+      "id": 5,
+      "role": "brand",
+      "name": "Coca-Cola",
+      "category": "Food & Beverage"
+    },
+    {
+      "id": 6,
+      "role": "creator",
+      "name": "Dana Artistry",
+      "subscribers": 90000,
+      "category": "Art",
+      "portfolio": [
+        {"title": "Digital Painting Tutorial", "url": "https://www.youtube.com/watch?v=ijkl9012"},
+        {"title": "Procreate Tips", "url": "https://www.youtube.com/watch?v=mnop3456"}
+      ],
+      "incomingOffers": [
+        {"brand": "Wacom", "value": "$2500"}
+      ]
+    },
+    {
+      "id": 7,
+      "role": "student",
+      "name": "Evan Learner",
+      "skillScore": 78,
+      "portfolio": ["Photography Set 1", "Video Reel 2"]
+    },
+    {
+      "id": 8,
+      "role": "brand",
+      "name": "Samsung",
+      "category": "Electronics"
+    },
+    {
+      "id": 9,
+      "role": "creator",
+      "name": "Fiona Fitness",
+      "subscribers": 320000,
+      "category": "Health & Fitness",
+      "portfolio": [
+        {"title": "30-Min Home Workout", "url": "https://www.youtube.com/watch?v=qrst7890"},
+        {"title": "Healthy Meals Prep", "url": "https://www.youtube.com/watch?v=uvwx1122"}
+      ],
+      "incomingOffers": [
+        {"brand": "Adidas", "value": "$6000"},
+        {"brand": "Under Armour", "value": "$4500"}
+      ]
+    },
+    {
+      "id": 10,
+      "role": "brand",
+      "name": "Sony Music",
+      "category": "Entertainment"
+    },
+    {
+      "id": 11,
+      "role": "student",
+      "name": "Grace Film",
+      "skillScore": 92,
+      "portfolio": ["Short Film - The Journey", "Cinematic Lighting Demo"]
+    },
+    {
+      "id": 12,
+      "role": "creator",
+      "name": "Henry TechTalk",
+      "subscribers": 210000,
+      "category": "Tech",
+      "portfolio": [
+        {"title": "iPhone 16 Review", "url": "https://www.youtube.com/watch?v=ab12cd34"},
+        {"title": "Top 5 AI Tools", "url": "https://www.youtube.com/watch?v=ef56gh78"}
+      ],
+      "incomingOffers": [
+        {"brand": "Microsoft", "value": "$8000"},
+        {"brand": "Dell", "value": "$5500"}
+      ]
+    },
+    {
+      "id": 13,
+      "role": "brand",
+      "name": "Starbucks",
+      "category": "Food & Beverage"
+    },
+    {
+      "id": 14,
+      "role": "student",
+      "name": "Ivy Designer",
+      "skillScore": 88,
+      "portfolio": ["Logo Collection 2024", "UI/UX Case Study"]
+    },
+    {
+      "id": 15,
+      "role": "creator",
+      "name": "Jack Gamer",
+      "subscribers": 750000,
+      "category": "Gaming",
+      "portfolio": [
+        {"title": "Best FPS Moments", "url": "https://www.youtube.com/watch?v=ghij9012"},
+        {"title": "Speedrun Challenge", "url": "https://www.youtube.com/watch?v=klmn3456"}
+      ],
+      "incomingOffers": [
+        {"brand": "Razer", "value": "$10000"},
+        {"brand": "Nvidia", "value": "$12000"}
+      ]
+    },
+    {
+      "id": 16,
+      "role": "brand",
+      "name": "BMW",
+      "category": "Automotive"
+    },
+    {
+      "id": 17,
+      "role": "creator",
+      "name": "Luna Lifestyle",
+      "subscribers": 560000,
+      "category": "Fashion",
+      "portfolio": [
+        {"title": "Summer Lookbook", "url": "https://www.youtube.com/watch?v=opqr7890"},
+        {"title": "Wardrobe Essentials", "url": "https://www.youtube.com/watch?v=stuv1122"}
+      ],
+      "incomingOffers": [
+        {"brand": "H&M", "value": "$3500"},
+        {"brand": "Gucci", "value": "$9000"}
+      ]
+    },
+    {
+      "id": 18,
+      "role": "student",
+      "name": "Max Audio",
+      "skillScore": 81,
+      "portfolio": ["Sound Design Demo", "Music Mix Sample"]
+    },
+    {
+      "id": 19,
+      "role": "brand",
+      "name": "Netflix",
+      "category": "Entertainment"
+    },
+    {
+      "id": 20,
+      "role": "creator",
+      "name": "Nina Nature",
+      "subscribers": 180000,
+      "category": "Environment",
+      "portfolio": [
+        {"title": "Sustainable Living", "url": "https://www.youtube.com/watch?v=wx12yz34"},
+        {"title": "Eco Travel Guide", "url": "https://www.youtube.com/watch?v=ab56cd78"}
+      ],
+      "incomingOffers": [
+        {"brand": "Patagonia", "value": "$4000"},
+        {"brand": "National Geographic", "value": "$6500"}
+      ]
+    }
+  ]
+}
