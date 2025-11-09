@@ -49,32 +49,30 @@ export default function BrandDashboard() {
           Creator Marketplace
         </motion.h1>
 
-        {/* Search + Filters in one horizontal line */}
+        {/* Search + Filters in a single horizontal line (no wrap, horizontal scroll on small screens) */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col md:flex-row items-center justify-between gap-4 mb-12 bg-gradient-to-br from-[#0a0f1c]/70 to-[#091d35]/70 border border-blue-800/50 backdrop-blur-md rounded-xl p-6 shadow-lg"
+          className="flex flex-row items-center gap-4 mb-12 bg-gradient-to-br from-[#0a0f1c]/70 to-[#091d35]/70 border border-blue-800/50 backdrop-blur-md rounded-xl p-6 shadow-lg overflow-x-auto flex-nowrap"
         >
-          {/* Search Input */}
-          <div className="relative w-full md:w-[55%]">
-            <Search
-              className="absolute left-3 top-1/2 -translate-y-1/2 text-blue-400"
-              size={18}
-            />
+          {/* Search Input = 70% */}
+          <div className="relative w-[70%] min-w-0">
+            
             <input
               type="text"
-              placeholder="Search creators..."
-              className="pl-10 pr-4 py-2 w-full rounded-lg bg-[#0b1120] text-gray-200 border border-blue-900/50 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-300"
+              autoComplete="off"
+              placeholder="🔍Search creators..."
+              className="pl-10 pr-4 py-2 w-full rounded-lg bg-[#0b1120] text-white focus:outline-none transition-all duration-300"
               value={filterText}
               onChange={(e) => setFilterText(e.target.value)}
             />
           </div>
 
-          {/* Category Filter */}
-          <div className="w-full md:w-[22%]">
+          {/* Category Filter = 15% */}
+          <div className="w-[15%] min-w-[120px] flex-shrink-0">
             <select
-              className="w-full bg-[#0b1120] border border-blue-900/50 text-gray-200 px-3 py-2 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-300"
+              className="w-full bg-[#0b1120] border border-transparent text-white px-3 py-2 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all duration-300"
               value={categoryFilter}
               onChange={(e) => setCategoryFilter(e.target.value)}
             >
@@ -86,10 +84,10 @@ export default function BrandDashboard() {
             </select>
           </div>
 
-          {/* Subscriber Filter */}
-          <div className="w-full md:w-[22%]">
+          {/* Subscriber Filter = 15% */}
+          <div className="w-[15%] min-w-[120px] flex-shrink-0">
             <select
-              className="w-full bg-[#0b1120] border border-blue-900/50 text-gray-200 px-3 py-2 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-300"
+              className="w-full bg-[#0b1120] border border-transparent text-white px-3 py-2 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all duration-300"
               value={subFilter}
               onChange={(e) => setSubFilter(e.target.value)}
             >

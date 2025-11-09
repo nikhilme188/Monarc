@@ -6,6 +6,7 @@
       "name": "Alice Creator",
       "subscribers": 120000,
       "category": "Tech",
+      "avatar": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "AI in 2025", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},
         {"title": "React Tips", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
@@ -19,7 +20,8 @@
       "id": 2,
       "role": "brand",
       "name": "Nike",
-      "category": "Sports"
+      "category": "Sports",
+      "avatar": "https://images.unsplash.com/photo-1571003123771-cb712d8e6f1d?w=400&h=400&fit=crop"
     },
     {
       "id": 3,
@@ -27,19 +29,12 @@
       "name": "John Doe",
       "skills": ["Video Editing", "Script Writing", "Motion Graphics"],
       "skillScore": 85,
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop",
       "jobMatches": [
-        {
-          "title": "Video Editor Needed",
-          "creator": "Tech Channel",
-          "rate": 25
-        }
+        {"title": "Video Editor Needed", "creator": "Tech Channel", "rate": 25}
       ],
       "portfolio": [
-        {
-          "title": "Gaming Montage",
-          "description": "Fast-paced gaming video edit",
-          "url": "https://example.com/video1"
-        }
+        {"title": "Gaming Montage", "description": "Fast-paced gaming video edit", "url": "https://example.com/video1"}
       ]
     },
     {
@@ -48,6 +43,7 @@
       "name": "Charlie Vlogs",
       "subscribers": 450000,
       "category": "Travel",
+      "avatar": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "Exploring Bali", "url": "https://www.youtube.com/watch?v=abcd1234"},
         {"title": "Backpacking Europe", "url": "https://www.youtube.com/watch?v=efgh5678"}
@@ -58,17 +54,12 @@
       ]
     },
     {
-      "id": 5,
-      "role": "brand",
-      "name": "Coca-Cola",
-      "category": "Food & Beverage"
-    },
-    {
       "id": 6,
       "role": "creator",
       "name": "Dana Artistry",
       "subscribers": 90000,
       "category": "Art",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "Digital Painting Tutorial", "url": "https://www.youtube.com/watch?v=ijkl9012"},
         {"title": "Procreate Tips", "url": "https://www.youtube.com/watch?v=mnop3456"}
@@ -78,24 +69,12 @@
       ]
     },
     {
-      "id": 7,
-      "role": "student",
-      "name": "Evan Learner",
-      "skillScore": 78,
-      "portfolio": ["Photography Set 1", "Video Reel 2"]
-    },
-    {
-      "id": 8,
-      "role": "brand",
-      "name": "Samsung",
-      "category": "Electronics"
-    },
-    {
       "id": 9,
       "role": "creator",
       "name": "Fiona Fitness",
       "subscribers": 320000,
       "category": "Health & Fitness",
+      "avatar": "https://images.unsplash.com/photo-1573496529574-be85d6a60704?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "30-Min Home Workout", "url": "https://www.youtube.com/watch?v=qrst7890"},
         {"title": "Healthy Meals Prep", "url": "https://www.youtube.com/watch?v=uvwx1122"}
@@ -106,24 +85,12 @@
       ]
     },
     {
-      "id": 10,
-      "role": "brand",
-      "name": "Sony Music",
-      "category": "Entertainment"
-    },
-    {
-      "id": 11,
-      "role": "student",
-      "name": "Grace Film",
-      "skillScore": 92,
-      "portfolio": ["Short Film - The Journey", "Cinematic Lighting Demo"]
-    },
-    {
       "id": 12,
       "role": "creator",
       "name": "Henry TechTalk",
       "subscribers": 210000,
       "category": "Tech",
+      "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "iPhone 16 Review", "url": "https://www.youtube.com/watch?v=ab12cd34"},
         {"title": "Top 5 AI Tools", "url": "https://www.youtube.com/watch?v=ef56gh78"}
@@ -134,24 +101,12 @@
       ]
     },
     {
-      "id": 13,
-      "role": "brand",
-      "name": "Starbucks",
-      "category": "Food & Beverage"
-    },
-    {
-      "id": 14,
-      "role": "student",
-      "name": "Ivy Designer",
-      "skillScore": 88,
-      "portfolio": ["Logo Collection 2024", "UI/UX Case Study"]
-    },
-    {
       "id": 15,
       "role": "creator",
       "name": "Jack Gamer",
       "subscribers": 750000,
       "category": "Gaming",
+      "avatar": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "Best FPS Moments", "url": "https://www.youtube.com/watch?v=ghij9012"},
         {"title": "Speedrun Challenge", "url": "https://www.youtube.com/watch?v=klmn3456"}
@@ -162,17 +117,12 @@
       ]
     },
     {
-      "id": 16,
-      "role": "brand",
-      "name": "BMW",
-      "category": "Automotive"
-    },
-    {
       "id": 17,
       "role": "creator",
       "name": "Luna Lifestyle",
       "subscribers": 560000,
       "category": "Fashion",
+      "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "Summer Lookbook", "url": "https://www.youtube.com/watch?v=opqr7890"},
         {"title": "Wardrobe Essentials", "url": "https://www.youtube.com/watch?v=stuv1122"}
@@ -183,24 +133,12 @@
       ]
     },
     {
-      "id": 18,
-      "role": "student",
-      "name": "Max Audio",
-      "skillScore": 81,
-      "portfolio": ["Sound Design Demo", "Music Mix Sample"]
-    },
-    {
-      "id": 19,
-      "role": "brand",
-      "name": "Netflix",
-      "category": "Entertainment"
-    },
-    {
       "id": 20,
       "role": "creator",
       "name": "Nina Nature",
       "subscribers": 180000,
       "category": "Environment",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
       "portfolio": [
         {"title": "Sustainable Living", "url": "https://www.youtube.com/watch?v=wx12yz34"},
         {"title": "Eco Travel Guide", "url": "https://www.youtube.com/watch?v=ab56cd78"}

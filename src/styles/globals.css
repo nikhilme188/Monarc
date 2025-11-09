@@ -76,3 +76,57 @@
     filter: drop-shadow(0 0 22px rgba(212,175,55,0.5));
   }
 }
+
+/* Ensure form text defaults to white */
+input,
+select,
+textarea {
+  color: #ffffff;
+}
+
+/* Override Chrome's autofill (prevents black text and yellow fill) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #0b1120 inset !important; /* match input bg */
+  box-shadow: 0 0 0px 1000px #0b1120 inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Optional: ensure placeholder stays subtle and readable */
+::placeholder {
+  color: #9aa6b2;
+  opacity: 1;
+}
+
+/* Prevent browser autofill from turning text black / yellow background */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important; /* text color */
+  -webkit-box-shadow: 0 0 0px 1000px #0b1120 inset !important; /* match input bg */
+  box-shadow: 0 0 0px 1000px #0b1120 inset !important;
+}
+
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #0b1120 inset !important;
+  box-shadow: 0 0 0px 1000px #0b1120 inset !important;
+}
+
+/* Firefox autofill */
+input:-moz-autofill,
+textarea:-moz-autofill,
+select:-moz-autofill {
+  -moz-text-fill-color: #ffffff !important;
+  box-shadow: 0 0 0px 1000px #0b1120 inset !important;
+}
